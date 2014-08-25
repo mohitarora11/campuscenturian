@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+
+html {width:800px;margin:0 auto;}
+body { width:800px;  margin:0 auto; padding:0; font-family: 'Roboto', sans-serif;position:relative;}
+* { margin:0; padding:0; list-style:none;}
+.topband { height:95px;margin-top:10px}
+.midbanner { background:url(../img/banner2.jpg) no-repeat; width:100%; height:338px;}
+.midbanner1 { background:url(../img/pic.jpg) no-repeat; width:100%; height:338px;float:left}
+.midbanner2 { background:url(../img/last2days.jpg) no-repeat; width:100%; height:338px;position:relative;z-index:2}
+.rightband { float:right; width:280px; border-left:solid 1px #373839; margin:30px 0; color:#fff;font-size:12px; font-family: 'Roboto', sans-serif; font-style:normal;}
+.rightband  em { color:#f0e502; font-size:12px; font-family: 'Roboto', sans-serif; font-style:normal;}
+.rightband  strong { color:#1999d6; font-size:15px; font-family: 'Roboto', sans-serif; font-style:normal; font-weight:normal;}
+.midbanner1 .rightband{display:none}
+.bluebase { background:#e5eff5;/*#72c1e6;*/ position:relative; float:left;}
+.tab1{background:#b0dcf1}
+.tab2{background:#e5eff5}
+.bluearrow { background:url(../img/bluearrow.png) no-repeat; position:absolute; margin:-40px auto 0 140px; width:60px;display:none }
+.selected .bluearrow{display:block}
+.hackrace { padding:20px 30px; width:340px; color:#333; font-size:14px; float:left;cursor:pointer}
+.hackrace strong { font-weight:normal; font-size:17px; display:block;}
+.analze { padding:20px 30px; width:340px; color:#000a26; font-size:14px;  float:left;cursor:pointer}
+.analze strong { font-weight:normal; font-size:17px; display:block; color:#0465a2;}
+/*.selected{background:#b0dcf1;}*/
+.event { width:28%; float:left; margin:25px 0; padding:0 20px;}
+.event strong { font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold; text-transform:uppercase; padding-bottom:15px; float:left;}
+.video { background:#fff; width:211px; height:147px; padding:8px 8px 35px 8px; float:left; /*box-shadow:5px 5px 0px #469ccb;*/}
+.border { border:solid 1px #66b2d8; border-bottom:none; border-top:none;}
+.calender { font-size:13px; color:#142832;}
+.calender li { float:left; width:100%; padding:5px 0;}
+.calender li span { float:left; width:40px; height:55px; background:url(../img/calender.gif) no-repeat; margin-right:10px; margin-top:2px; text-align:center; font-size:10px; line-height:12px;}
+.calender li span strong { padding:0; float:none; font-weight:bold; line-height:15px; display:block;}
+.calender li span em {   color: #fff;
+    float: left;
+    font-size: 11px;
+    font-style: normal;
+    margin-top: -2px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%; line-height:15px; } 
+	.friends { /*background:#f1f9fd;*/ float:left; width:242px; padding: 20px;}
+	.clear { clear:both;}
+	.comments { float:left; width:500px; /*background:#e5eff5;*/ padding:0px 0 20px 13px; height:340px;overflow:hidden;}
+	.comments strong,.friends strong { font-family:Arial, Helvetica, sans-serif; font-size:14px; font-weight:bold; padding-bottom:10px; float:left; color:#333;}
+	.comments p { padding:10px 0;  font-size:11px;} 
+	.comments p a { display:block; color:#0587c2; text-decoration:none;}
+	.comments em { bottom:0; font-size:16px;font-style:normal;font-weight:bold}
+	.foot { background:#012c5c; padding:20px; color:#fff; float:left; width:95%;}
+	.foot em { font-size:13px; width:480px; float:left;font-style:normal}
+	
+	.comments input[type="button"],a.btn {
+    background: none repeat scroll 0 0 #72c1e6;
+    border: 0 none;
+    color: #fff;
+    float: right;
+    font-weight: bold;
+    margin: 5px 17px 3px 0;
+    padding: 5px;
+	cursor:pointer;
+}
+a.btn {margin-left:0px;padding:15px;float:left;text-decoration:none;width:160px;text-align:center}
+	.viewcom { color:#333;margin:0 0 10px 0;background:#e5eff5; border-bottom:solid 1px #e1f3fb; float:left;padding:0 0 10px 0; width:100%;  }
+.viewcom ul  { width:98%; list-style:none; margin:0; padding:0; float:left;}
+.viewcom li { float:left; width:100%; display:block; padding:5px 0 3px 0;font-size:12px}
+.comments .viewcom li strong {  color: #0587c2;
+    display: block;
+    text-decoration: none;font-size:11px;padding:0px;float:none}
+	
+	#ulcomments strong a{text-decoration:none;color:#0587c2}
+	
+	#fb-comments{ height:265px; margin-bottom:20px;overflow-x:hidden;width:100% }
+	/*#fb-comments span{height:250px !important;overflow: scroll;overflow-x:hidden;width:100%}*/
+#appuser{width:249px;float:left}
+#appuser li{margin:3px 3px 0 0;vertical-align:top;display:inline;width:auto}

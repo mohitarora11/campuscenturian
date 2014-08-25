@@ -134,7 +134,7 @@ iPAD</td>
 </div>
 <span class="cls_hackrace cls_schedule" style="display:none"><span class="midbanner cls_banner "></span></span>
 <!--<a class="cls_analyze cls_schedule" href="http://www.axpindiacampus.com/AnalyzeThis/" target="_blank"></a>-->
-<span class="midbanner1 cls_banner "></span>
+<span class="midbanner1 cls_banner cls_analyze cls_schedule "></span>
 <div class="cls_quiz" style="display:none">
 <a href="http://www.axpindiacampus.com/AnalyzeThis/" target="_blank">
 <div class="midbanner2" style="border:none"></div></a>
@@ -218,8 +218,7 @@ Registrations open 10th September
 
 </ul>
 <ul class="calender cls_analyze cls_schedule" >
-<li>Clue 2 has been released. To know more, <a href="http://www.axpindiacampus.com/AnalyzeThis/" target="_blank">click here</a></li>
-<li>Clue 1 has been released. To know more, <a href="http://www.axpindiacampus.com/AnalyzeThis/" target="_blank">click here</a></li>
+<li>Stay tuned for the results!</li>
 <!--<li>Many Congratulations to Team AnalystINC (IIT Guwahati) and Team Bumble (IIT Kanpur) for winning Quiz2!</li>-->
 
 </ul>

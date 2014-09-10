@@ -132,42 +132,42 @@ iPAD</td>
 <div class="topband">
 <img src="img/top_band.png" width="800" height="95" alt="">
 </div>
-<span class="cls_hackrace cls_schedule" style="display:none"><span class="midbanner cls_banner "></span></span>
+<span class="cls_hackrace cls_schedule" ><span class="midbanner cls_banner" style="display:block"></span></span>
 <!--<a class="cls_analyze cls_schedule" href="http://www.axpindiacampus.com/AnalyzeThis/" target="_blank"></a>-->
-<span class="midbanner1 cls_banner cls_analyze cls_schedule "></span>
+<span class="midbanner1  cls_analyze cls_schedule" style="display:none"></span>
 <div class="cls_quiz" style="display:none">
-<a href="http://www.axpindiacampus.com/AnalyzeThis/" target="_blank">
+<a href="http://goo.gl/JcX1L0" target="_blank">
 <div class="midbanner2" style="border:none"></div></a>
 </div>
 
 <div class="bluebase tab1 cls_tbbg">
 
 
-<div class="analze cls_tab tab2 selected" data-tab="tab2" data-removetab="tab1" data-schedule="cls_analyze" 
+<div class="analze cls_tab tab2 " data-tab="tab2" data-removetab="tab1" data-schedule="cls_analyze" 
 data-comment="cls_analyze_comment" data-removebanner="midbanner" data-banner="midbanner1">
 <div class="bluearrow"><img src="img/bluearrow1.png" width="60" height="20" alt=""></div>
 <img src="img/logo.gif" width="325" height="85" alt=""><strong>Analyze This</strong>16th August 2014 to 24th August 2014
 </div>
-<div class="hackrace cls_tab tab1 " data-tab="tab1" data-removetab="tab2" data-comment="cls_hack_comment" data-schedule="cls_hackrace" data-banner="midbanner" data-removebanner="midbanner1">
+<div class="hackrace cls_tab tab1 selected" data-tab="tab1" data-removetab="tab2" data-comment="cls_hack_comment" data-schedule="cls_hackrace" data-banner="midbanner" data-removebanner="midbanner1">
 <div class="bluearrow"><img src="img/bluearrow.png" width="60" height="20" alt=""></div>
 <img src="img/Challenge.jpg" style="margin-left:0px" height="84" alt=""><strong>Challenge 2014</strong> 
 17th September to 27th September 2014</div>
 
 <div style="clear:both"></div>
 
-<div class="event cls_hackrace cls_schedule" style="display:none"><strong>LEADER SPEAK</strong>
+<div class="event cls_hackrace cls_schedule" ><strong>Launch Video</strong>
 <div class="video">
 
 <!--<iframe width="211" height="175" src="//www.youtube.com/embed/dFIHn87afSs?rel=0" frameborder="0" allowfullscreen></iframe>-->
 <!--<iframe src="//player.vimeo.com/video/101492892" width="211" height="175" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>-->
-<iframe src="//player.vimeo.com/video/101492892"  width="211" height="175" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="//player.vimeo.com/video/105302032"  width="211" height="175" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 </div>
 
 
 </div>
 
-<div class="event cls_analyze cls_schedule" ><strong>LAUNCH VIDEO</strong>
+<div class="event cls_analyze cls_schedule" style="display:none"><strong>LAUNCH VIDEO</strong>
 <div class="video">
 
 <!--<iframe width="211" height="175" src="//www.youtube.com/embed/dFIHn87afSs?rel=0" frameborder="0" allowfullscreen></iframe>-->
@@ -181,7 +181,7 @@ data-comment="cls_analyze_comment" data-removebanner="midbanner" data-banner="mi
 
 
 <div class="event border"><strong>Event Schedule</strong>
-<ul class="calender cls_hackrace cls_schedule" style="display:none">
+<ul class="calender cls_hackrace cls_schedule" >
 
 <li><span><em>sep</em> <strong>10 </strong>Wed</span>
 Registrations Open
@@ -194,7 +194,7 @@ National Finale
 </li>
 
 </ul>
-<ul class="calender cls_analyze cls_schedule" >
+<ul class="calender cls_analyze cls_schedule" style="display:none">
 <li><span><em>aug</em> <strong>6 </strong>Mon</span>Registrations begin
 </li>
 <li><span><em>aug</em> <strong>10 </strong>Mon</span>
@@ -208,16 +208,15 @@ Analyze This begins
 
 
 </div><div class="event"><strong>Latest Announcements</strong>
-<ul class="calender cls_hackrace cls_schedule" style="display:none">
-<li>Challenge 2014 for IIM Ahmedabad, IIM Calcutta, IIM Lucknow, IIM Indore, IIM Kozhikode, MDI, XLRI, IIM Shillong and IIM Kashipur
-</li>
+<ul class="calender cls_hackrace cls_schedule" >
+
 <li>
 Registrations open 10th September
 </li>
 
 
 </ul>
-<ul class="calender cls_analyze cls_schedule" >
+<ul class="calender cls_analyze cls_schedule" style="display:none">
 <li>Stay tuned for the results!</li>
 <!--<li>Many Congratulations to Team AnalystINC (IIT Guwahati) and Team Bumble (IIT Kanpur) for winning Quiz2!</li>-->
 
@@ -265,11 +264,11 @@ PEOPLE WHO ARE HERE</strong><br>
 </div>
 <div class="comments"><strong>LEAVE YOUR COMMENTS HERE</strong>
 
-<div id="fb-comments" class="cls_hack_comment cls_comment" style="display:none">
+<div id="fb-comments" class="cls_hack_comment cls_comment" >
 <div class="fb-comments" data-href="https://apps.facebook.com/campuscenturion/#beat" data-width="478" data-numposts="5" data-colorscheme="light"></div>
 </div>
 
-<div id="fb-comments" class="cls_analyze_comment cls_comment" >
+<div id="fb-comments" class="cls_analyze_comment cls_comment" style="display:none">
 <div class="fb-comments" data-href="https://apps.facebook.com/campuscenturion/#analyze" data-width="478" data-numposts="5" data-colorscheme="light"></div>
 </div>
 
@@ -282,13 +281,13 @@ Share your thoughts, and build the excitement.
 
 <div class="foot">
 
-<em class="cls_schedule cls_hackrace" style="display:none">
+<em class="cls_schedule cls_hackrace" >
 Open to 2nd year students of the flagship post-graduate program at<br/>IIM Ahmedabad, IIM Calcutta, IIM Lucknow, IIM Indore, IIM Kozhikode, MDI, XLRI, <br/>IIM Shillong and IIM Kashipur <br/>
 
 </em>
 
 
-<em class="cls_schedule cls_analyze"> Students from following courses are eligible to participate: -<br/>
+<em class="cls_schedule cls_analyze" style="display:none"> Students from following courses are eligible to participate: -<br/>
 1) B.Tech students (All Streams) - 4th Year <br/>
 2) Dual/Integrated course Students (All Streams) - 5th year<br/>
 3) This contest is not open to M.Tech students.<br/>
@@ -296,7 +295,7 @@ Open to 2nd year students of the flagship post-graduate program at<br/>IIM Ahmed
 <a href="http://goo.gl/mUUU8J" target="_blank" style="display:none">
 	<img width="239" height="93" style="float:right; margin-top:-30px;" alt="" src="img/reg.png">
 </a>
-<a href="http://www.axpindiacampus.com/AnalyzeThis/" target="_blank" class="cls_schedule cls_analyze" >
+<a href="http://www.axpindiacampus.com/AnalyzeThis/" target="_blank" class="cls_schedule cls_analyze" style="display:none">
 	<img width="239" height="93" style="float:right; margin-top:-30px;" alt="" src="img/reg.png">
 </a>
 <br/>

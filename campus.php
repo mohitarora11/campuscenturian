@@ -209,10 +209,9 @@ Analyze This begins
 
 </div><div class="event"><strong>Latest Announcements</strong>
 <ul class="calender cls_hackrace cls_schedule" >
-
-<li>
-Registrations open 10th September
-</li>
+<li>Congratulations to Winners of Quiz 4 – Team NightsWatch – Govind Paliath, Harshit Rai, Ameya Bothara, from MDI! Each member of the winning team for the quizzes receives American Express Gift Cards.</li>
+<li>Congratulations to Winners of Quiz 3 – Team QuizMaster – Mitul Sonker, Rupal Yadav, Srinit Das, from IIM Ahmedabad! Each member of the winning team for the quizzes receives American Express Gift Cards.</li>
+<li>Registrations open 10th September</li>
 
 
 </ul>

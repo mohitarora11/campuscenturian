@@ -5,9 +5,9 @@ html {width:800px;margin:0 auto;}
 body { width:800px;  margin:0 auto; padding:0; font-family: 'Roboto', sans-serif;position:relative;}
 * { margin:0; padding:0; list-style:none;}
 .topband { height:95px;margin-top:10px}
-.midbanner { background:url(../img/Schedule_of_Games.jpg) no-repeat; width:100%; height:338px;}
+.midbanner { background:url(../img/Facebook_Quiz-5_is_today_12Sep14.jpg) no-repeat; width:100%; height:338px;}
 .midbanner1 { background:url(../img/pic.jpg) no-repeat; width:100%; height:338px;float:left}
-.midbanner2 { background:url(../img/Registrations_Open.jpg) no-repeat; width:100%; height:338px;position:relative;z-index:2}
+.midbanner2 { background:url(../img/thebig.jpg) no-repeat; width:100%; height:338px;position:relative;z-index:2}
 .rightband { float:right; width:280px; border-left:solid 1px #373839; margin:30px 0; color:#fff;font-size:12px; font-family: 'Roboto', sans-serif; font-style:normal;}
 .rightband  em { color:#f0e502; font-size:12px; font-family: 'Roboto', sans-serif; font-style:normal;}
 .rightband  strong { color:#1999d6; font-size:15px; font-family: 'Roboto', sans-serif; font-style:normal; font-weight:normal;}

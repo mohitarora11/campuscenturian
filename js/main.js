@@ -184,6 +184,7 @@ $('.cls_tab').on('click',function(){
 });
 
 function changebanner(){
+/*
 if($('.cls_tab.selected.hackrace').length > 0){
 	if($('.cls_quiz').css('display') == 'block'){
 		$('.cls_banner').css('display','block');
@@ -194,5 +195,5 @@ if($('.cls_tab.selected.hackrace').length > 0){
 
 	}
 }
-st=setTimeout(changebanner,5500);
+st=setTimeout(changebanner,5500);*/
 }

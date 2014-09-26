@@ -1,6 +1,6 @@
 <?php
 include_once('app_config.php');
-/*    include_once('db_connection.php');
+    include_once('db_connection.php');
   
     function getcmt(){
 		global $conn;
@@ -26,7 +26,7 @@ include_once('app_config.php');
 		return $res;
 		//return mysql_query($sql);
 	}
-	*/
+	
 ?>
 <!doctype html>
 <html>
@@ -89,6 +89,43 @@ include_once('app_config.php');
         }());
     </script>
 <br/>
+<!--<div class="rightband">
+  <table width="90%" border="0" align="center" cellpadding="0" cellspacing="0">
+    <tr>
+   
+	<td colspan="3" align="center"><em>ONLINE CONTEST TO<br>
+      CHALLENGE YOUR PROGRAMMING SKILLS</em><br/>
+	  <strong>PRIZES TO BE WON</strong> 
+	  </td>
+    </tr>
+  <tr>
+    <td width="52%" align="center"><img src="img/ipad.png" width="95" height="112" alt=""><br>
+iPAD</td>
+   
+    <td width="37%" align="center"><img src="img/nexus.png" width="66" height="93" alt=""><br>
+      NEXUS 7</td>
+  </tr>
+  <tr>
+    <td colspan="3"  align="center">
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<img src="img/add.gif" width="12" height="18" alt="">
+	<br/>
+	<em>&nbsp;&nbsp;&nbsp;EARLY BIRD PRIZES FOR REGISTRATION</em>
+	
+	</td>
+    
+	</tr>
+  <tr >
+    <td colspan="3" align="center"><a style="display:none" href="http://goo.gl/mUUU8J" target="_blank">
+	
+		<img style="margin-top:5px" src="img/register.png" width="134" height="37" alt=""/>
+	</a>
+	</td>
+    </tr>
+</table>
+
+</div>-->
+
 
 
     
@@ -173,8 +210,8 @@ Analyze This begins
 
 </div><div class="event"><strong>Latest Announcements</strong>
 <ul class="calender cls_hackrace cls_schedule" >
-<li>Congratulations to Overall Winners of Daily Quiz – Team Blitzkrieg – Pratyasha Burman Ray, Amit Singha, Ved Prakash, from IIM Kozhikode! Each member of the winning team for the quizzes receives exciting prizes.</li>
-<li>Congratulations to Winners of Quiz 5 – Team Horn Ok Please – Sujay Deo, Arjit Sharma, Himanshu Singh, from IIM Calcutta! Each member of the winning team for the quizzes receives American Express Gift Cards.</li>
+<li>Congratulations to Overall Winners of Daily Quiz â€“ Team Blitzkrieg â€“ Pratyasha Burman Ray, Amit Singha, Ved Prakash, from IIM Kozhikode! Each member of the winning team for the quizzes receives exciting prizes.</li>
+<li>Congratulations to Winners of Quiz 5 â€“ Team Horn Ok Please â€“ Sujay Deo, Arjit Sharma, Himanshu Singh, from IIM Calcutta! Each member of the winning team for the quizzes receives American Express Gift Cards.</li>
 
 
 
@@ -202,6 +239,39 @@ Team Chronicles (IIT Roorkee)</li>
 <div class="clear"></div>
 <div class="friends" style="min-height:270px">
 <!--<div class="fb-facepile" style="padding:0px;" data-app-id="695438390481219" data-href="https://www.facebook.com/AmericanExpressIndia/app_695438390481219" data-width="249px" data-max-rows="4" data-colorscheme="light" data-size="large" data-show-count="false"></div>-->
+
+<?php if ($session){ ?>
+<strong>
+PEOPLE WHO ARE HERE</strong><br>
+<div id="scrollbar10">
+                <div class="scrollbar"><div class="track"><div class="thumb"><div class="end"></div></div></div></div>
+                <div class="viewport">
+                    <div class="overview">
+                    <div class="viewcom">  
+<ul id="appuser">
+<?php 
+							
+		$q=getrandomusers();
+		while ($r = $q->fetch(PDO::FETCH_ASSOC)) {
+?>
+	<li><img src="https://graph.facebook.com/<?php echo $r['uid']?>/picture" width="50" height="50" title="<?php echo $r['name']?>" alt="<?php echo $r['name']?>" /></li>
+<?php } ?>
+</div></div></div></div>
+<br/><br/>
+	<div class="fb-like" data-href="https://apps.facebook.com/campuscenturion/" data-layout="standard" data-width="240px" data-action="like" data-show-faces="false" data-share="true" data-show-count="false"></div>   
+  
+  
+<?php } else { ?>
+<img src="img/silhouette.png" alt="" style="margin-left:27px" />
+<br/>
+<a class="btn" target="_top" style="margin-left:27px" href="<?php echo $LOGINURL;?>">Click to see people who are here</a>
+<br/>
+<!--<strong style="margin-left:27px;">Click to see who are here</strong>-->
+  
+
+<?php }  ?>
+
+
 
 </div>
 <div class="comments"><strong>LEAVE YOUR COMMENTS HERE</strong>
